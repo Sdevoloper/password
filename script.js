@@ -7,9 +7,11 @@ generateBtn = document.querySelector(".generate-btn");
 
 const characters = { // object of letters, numbers & symbols
     lowercase: "abcdefghijklmnopqrstuvwxyz",
-    uppercase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    numbers: "0123456789",
-    symbols: "^!$%&|[](){}:;.,*+-#@<>~"
+    lowercase: "কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরশষসহড়ঢ়য়ৎ",
+
+    uppercase: "কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরশষসহড়ঢ়য়ৎ",
+    numbers: "০১২৩৪৫৬৭৮৯",
+    symbols: "^!৳%&|[](){}:;.,*+-#@<>~"
 }
 
 const generatePassword = () => {
